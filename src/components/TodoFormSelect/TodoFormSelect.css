@@ -1,0 +1,13 @@
+.form__select {
+  width: 40vw;
+  height: 50px;
+
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.form__select--error {
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+}

@@ -1,0 +1,28 @@
+.form__input-wrapper {
+  height: 100px;
+}
+
+.form__error_message {
+  font-size: 20px;
+  color: red;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.form__select-wrapper {
+  height: 80px;
+
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+
+  color: #fff;
+
+  background-color: green;
+  border-radius: 20px;
+
+  cursor: pointer;
+}
