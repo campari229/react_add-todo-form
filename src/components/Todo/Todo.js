@@ -52,7 +52,7 @@ export class Todo extends React.Component {
     const input = event.target.children[0].children[0];
     const select = event.target.children[1].children[0];
 
-    if (!this.state.tempoTitle) {
+    if (!this.state.tempoTitle.trim()) {
       input.className = 'form__input form__input--error';
 
       this.setState({
