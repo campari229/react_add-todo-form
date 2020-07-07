@@ -1,0 +1,39 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list__item {
+  background-color: red;
+  color: #fff;
+
+  border: 2px solid black;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.list__item--completed {
+  background-color: green;
+}
+
+.list__item--info {
+  width: 70%;
+}
+
+.list__item-text {
+  font-size: 20px;
+}
+
+.list__item-id {
+  font-size: 10px;
+}
+
+.list__check-wrapper {
+  display: flex;
+  align-items: center;
+}
